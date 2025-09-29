@@ -4,12 +4,12 @@ export default function Navbar() {
   return (
     <header className="w-full sticky top-0 z-50 bg-cream/80 backdrop-blur">
       <nav className="max-w-5xl mx-auto flex items-center justify-between p-4">
-        {/* Internal link MUST use next/link */}
+        {/* Internal link must use next/link */}
         <Link href="/" className="text-lg font-semibold tracking-wide">
           سُترة <span className="text-cocoa/70">عباية</span>
         </Link>
 
-        {/* External links are fine as <a> with rel+target */}
+        {/* External links: keep <a> + rel/target */}
         <div className="flex items-center gap-3">
           <a
             href="https://www.instagram.com/sutrah_abayajo?igsh=OTRyajhsNXJyZG44"
