@@ -1,7 +1,8 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Products from "./sections/Products"; // ← this is the only new import
+import Products from "./sections/Products";
+ // ← this is the only new import
 
 export default function Home() {
   return (
