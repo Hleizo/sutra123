@@ -1,0 +1,5 @@
+/* Tailwind v4: import once */
+@import "tailwindcss";
+
+:root{ --cream:#FFFBFC; --cocoa:#3B2324; }
+body{ background:var(--cream); color:var(--cocoa); margin:0; }
